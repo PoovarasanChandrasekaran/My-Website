@@ -42,6 +42,21 @@ padding: 1rem 3rem;
 .nav ul li:active{
   color: aliceblue;
 }
+button{
+  cursor: pointer;
+  color: black;
+  background: linear-gradient(whitesmoke, #9198e5);
+  padding: 0.5rem 2.5rem;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: serif;
+  line-height: 24px;
+  border-radius: 7px;
+}
+button:hover{
+  color: lightslategrey;
+}
 .footer-container{
   box-sizing: border-box;
   background-color: #000;
@@ -55,11 +70,14 @@ padding: 1rem 3rem;
 .column {
   float: left;
   width: 33.33%;
-  padding: 2rem 5rem;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 230px; /* Should be removed. Only for demonstration */
   background-color: #000;
   color: white;
- 
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+  /* border-bottom: solid 1px;
+  border-color: aliceblue; */
 }
 .column a {
   text-decoration: none;
@@ -68,4 +86,26 @@ padding: 1rem 3rem;
 }
 .column li{
   list-style: none;
+  padding-bottom: 1rem;
+  
+  
+}
+.space {
+  padding-left: 1rem;
+}
+.size{
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  width: 20%;
+}
+.text-size{
+  font-size: 14px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: -8px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #000;
 }

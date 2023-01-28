@@ -1,3 +1,4 @@
+import { FaGithub} from "react-icons/fa";
 export default function Navbar(){
     const path = window.location.pathname
     return <nav className="nav">
@@ -12,6 +13,7 @@ export default function Navbar(){
             <li>
                 <a href="/contact">Contact</a> 
             </li>
+            <button><FaGithub /><a href="https://github.com/PoovarasanChandrasekaran" target='_blank'>Github</a></button>
         </ul>
 
     </nav>

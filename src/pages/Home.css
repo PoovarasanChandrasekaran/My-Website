@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+  }
+  .landing-page{
+    background-image: url('/src/Image/land\ image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+  }
+  .column-1{
+    float: left;
+    width: 50%;
+    padding-top: 5rem;
+    padding-left: 10rem;
+  }
+  .column-1 h6{
+    color: black;
+    font-size: 20px;
+  }
+  .column-1 h3{
+    color: black;
+    font-size: 45px;
+  }
+  .column-1 h5{
+    color: black;
+    font-size: 30px;
+  }
+  span{
+    color:#33ccff;
+  }
+span::before {
+    content: "React Js";
+    animation: animate infinite 7s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "JavaScript";
+    }
+
+    50% {
+        content: "HTML & CSS";
+    }
+
+    75% {
+        content: "WordPress";
+    }
+    100%{
+        content: "Bootstrap";
+    }
+}
+.style{
+    cursor: pointer;
+    color: whitesmoke;
+    background: linear-gradient(#e66465, #9198e5);
+    padding: 0.8rem 2rem;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: serif;
+    line-height: 24px;
+    border-radius: 7px;
+    
+}
+button a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
