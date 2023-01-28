@@ -13,7 +13,7 @@ export default function Navbar(){
             <li>
                 <a href="/contact">Contact</a> 
             </li>
-            <button><FaGithub /><a href="https://github.com/PoovarasanChandrasekaran" target='_blank'>Github</a></button>
+            <button><a href="https://github.com/PoovarasanChandrasekaran" target='_blank'><FaGithub />&nbsp;&nbsp;Github</a></button>
         </ul>
 
     </nav>

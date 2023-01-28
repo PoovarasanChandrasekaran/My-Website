@@ -9,6 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 500px;
+    width: 100%;
   }
   .column-1{
     float: left;
@@ -29,7 +30,7 @@
     font-size: 30px;
   }
   span{
-    color:#33ccff;
+    color:#e66465;
   }
 span::before {
     content: "React Js";
@@ -70,6 +71,34 @@ span::before {
 button a{
     color: aliceblue;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
+    padding: 0.5rem 0.5rem;
+}
+.style-1{
+  cursor: pointer;
+  color: whitesmoke;
+  background: linear-gradient(#e66465, #9198e5); 
+  padding: 0.8rem 1.2rem;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: serif;
+  line-height: 24px;
+  border-radius: 7px;
+  margin-left: 2rem;
+  
+}
+img {
+  border-radius: 10px;
+  margin-left: -6rem;
+  height: 410px;
+}
+.row-1{
+  background-color: azure;
+  height: 200px;
+}
+.column-2{
+  float: left;
+  width: 33.33%;
 }
